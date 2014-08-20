@@ -14,9 +14,6 @@
 
 	body
 	{
-		background-image:			url('images/overlay.png'),		url('images/bg2.jpg');
-		background-repeat:			repeat,							no-repeat;
-		background-size:			auto,							100% 100%;
 	}
 
 		body.is-loading *
@@ -502,3 +499,72 @@
 				{
 					display: none;
 				}
+
+	#outerWrapper
+	{
+		position: absolute;
+		min-width: 100%;
+		width: 100%;
+		min-height: 100%;
+		z-index: 1;
+		background-image: url('images/bg2.jpg'); 
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+	}
+
+	#bgOverlay
+	{
+		width: 100%;
+		height: 100%;
+		top : 0;
+		right : 0;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		z-index: -1;
+		background-color: rgba(0,0,0,0.3);
+	}
+
+	#midcontainer
+	{
+		text-align: center;
+		vertical-align: middle;	
+		display: table-cell;	
+	}
+
+	#mid 
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height : 100%;
+	}
+
+	.big
+	{
+		font-family: Segoe UI Light;
+		text-align: center;
+		font-size: 65px;
+		color: #ffffff;
+		letter-spacing: 10px;
+		margin-top: 10%;
+	}
+
+	.midtext 
+	{
+		font-family: Segoe UI Light;
+		font-size: 18px;
+		color: #ffffff;
+		letter-spacing: 2px;
+		text-align: center;
+		margin-top: 2%;
+	}
+
+	div
+	{
+		display: block;
+	}
+

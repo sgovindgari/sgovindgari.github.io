@@ -535,7 +535,7 @@
 		left: 0;
 		position: absolute;
 		z-index: -1;
-		background-color: rgba(0,0,0,0.35);
+		background-color: rgba(0,0,0,0.15);
 	}
 
 	#midcontainer
@@ -563,34 +563,37 @@
 		-o-animation-fill-mode: forwards;
 		-ms-animation-fill-mode: forwards;
 		animation-fill-mode: forwards;
-		position: absolute;
+		position: fixed;
+		z-index: 100;
 		top: 0;
-		left: 15%;
-		width: 70%;
-		height : 40%;
+		left: 50%;	
+		margin-left: -600px;
+		width: 1200px;
 		opacity: 0;
 		display: table-cell;
+		text-align: center;
 		background-color: rgba(252, 252, 252, 0.25);
 	}
 
 	.big
 	{
 		font-family: Segoe UI Light;
-		font-size: 3em;
+		font-size: 65px;
 		color: black;
-		letter-spacing: 10px;
+		letter-spacing: 5px;
 		text-align: center;
 		margin-top: 10%;
+		height: auto;
 	}
 
 	.midtext 
 	{
 		font-family: Segoe UI Light;
-		font-size: 18px;
-		color: white;
+		font-size: 20px;
+		color: black;
 		letter-spacing: 2px;
 		text-align: center;
-		margin-top: 2%;
+		margin-top: 2em;
 	}
 
 	div

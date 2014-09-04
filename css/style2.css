@@ -275,12 +275,12 @@ footer {padding: 2.4em 0;}
 
 h1 {font-size: 2.6em;}
 #main-header.fixed nav, #secondary-header nav {margin-top: 2.2em;}
-#main-header.fixed #navigation, #secondary-header #navigation {margin-right: 0%; }
-#main-header.fixed #logo, #secondary-header #logo {font-size: 1.5em; line-height: 50px; height: 60px; border-width: 5px;}
+#main-header.fixed #navigation, #secondary-header #navigation {margin-right: -0% }
+#main-header.fixed #logo, #secondary-header #logo {font-size: 1.5em; line-height: 50px; height: 60px; margin-left: 1em; border-width: 5px;}
 #main-header.fixed #navigation li a, #secondary-header #navigation li a {font-size: 1.5em; color: #8CB4E8;}
 
-#logo {font-size: 6em; line-height: 50px; height: 60px; margin-top: 2em; border-width: 5px;}
-#navigation {margin-top: 5.6em; margin-right: 23%;}
+#logo {font-size: 6em; line-height: 50px; height: 60px; margin-top: 2em; margin-right: 3em; border-width: 5px;}
+#navigation {margin-top: 5.6em; margin-right: 26%;}
 #navigation li a {font-size: 2.0em;}
 #capa .hello {font-size: 3.5em;}
 .view-content {width: 660px;}

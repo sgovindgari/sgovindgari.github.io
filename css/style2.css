@@ -219,8 +219,6 @@ span.wpcf7-list-item {margin-left: 0.5em;}
  
 footer {background: url("images/bg2.jpg") no-repeat; background-position: center top; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; position: relative; font-size: 1.4em; color: black; clear: both; width: 100%; padding: 2.8em 0;}
 
-/* Botão "Voltar ao Topo" */
-
 #scroll-to-top {background-image: url("images/aboutmarco-arrow-top.png"); background-color: #8CB4E8; background-position: center; background-size: cover; -moz-background-size: cover; -webkit-background-size: cover; -o-background-size: cover; width: 60px; height: 60px; position: fixed; right: 0; bottom: 20px; z-index: 1000; text-indent: -9999px; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;}
 #scroll-to-top:hover {background-color: #232930;}
 

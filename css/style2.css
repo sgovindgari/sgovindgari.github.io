@@ -19,15 +19,15 @@
 html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, em, font, img, q, s, samp, small, strike, strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tr, th, td {background: transparent; border: 0; margin: 0; padding: 0; vertical-align: baseline;}
 
 html, body {width: 100%; height: 100%;}
-body, input, textarea {font-family: 'Open Sans', sans-serif, 'Segoe UI Light'; font-size: 62.5%; font-weight: 300; line-height: 1.8; color: #232930;}
+body, input, textarea {font-family: 'Open Sans', sans-serif; font-size: 62.5%; font-weight: 300; line-height: 1.8; color: #232930;}
 input, textarea {outline: 0; resize: none;}
 
 h1, h2, h3, h4, h5, h6 {clear: both; line-height: 1.6;}
 h1 {font-size: 3em; font-weight:900; text-transform: uppercase; letter-spacing: 0.2em;}
-h2 {font-size: 2.4em; font-weight: 400; color: #8CB4E8; padding: 0.4em 0; font-family: Segoe UI Light}
+h2 {font-size: 2.4em; font-weight: 400; color: #8CB4E8; padding: 0.4em 0;}
 h3 {font-size: 1.8em; font-weight: 400; color: #8CB4E8; font-style: italic;}
 
-a {font-family: Segoe UI Light; text-decoration: none; outline: none; -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;}
+a {text-decoration: none; outline: none; -webkit-transition: all 150ms ease-in-out; -moz-transition: all 150ms ease-in-out; -o-transition: all 150ms ease-in-out; transition: all 150ms ease-in-out;}
 a:link {color: #232930;}
 a:visited {color: #D3D5D7;}
 a:active, a:hover {color: #8CB4E8;}
@@ -98,7 +98,7 @@ table {border-collapse: collapse; border-spacing: 0;}
 #jpreOverlay {background-color: #232930;}
 #jpreLoader{width: 140px; height: 140px; top: 50%; left: 50%; margin-top: -70px; margin-left: -70px; border: 8px solid #8CB4E8;	border-radius: 50%;	-moz-border-radius: 50%; -webkit-border-radius: 50%;}
 #jpreBar {display: none;}
-#jprePercentage {font-family: 'Open Sans', sans-serif; font-size: 4em; font-weight: 300; color: white; text-align: center; line-height: 124px; letter-spacing: -0.050em;}
+#jprePercentage {font-family: 'OpenSansLight', sans-serif; font-size: 4em; font-weight: 300; color: white; text-align: center; line-height: 124px; letter-spacing: -0.050em;}
 
 /* Waypoints  */
 
@@ -128,7 +128,7 @@ header {margin: 0; padding: 0;}
  * 3.1 LOGO
  * ====================================== */
 
-#logo {font-size: 6em; font-family: Segoe UI Light; letter-spacing: 10px; color: black; line-height: 58px; height: 70px; float: left; text-align: center; margin-top: 1.5em; margin-left: 15%;}
+#logo {font-size: 6em; letter-spacing: 10px; color: black; line-height: 58px; height: 70px; float: left; text-align: center; margin-top: 1.5em; margin-left: 15%;}
 #logo:hover {font-color: black;}
 
 /* ======================================
@@ -137,10 +137,10 @@ header {margin: 0; padding: 0;}
  
 #navigation {float: right; margin-top: 5.6em; margin-right: 20%; margin-bottom: 2em;}
 
-#navigation li {float: left; padding: 0.4em 2.2em; border-left: 1px solid black;}
+#navigation li {float: left; padding: 0.4em 2.2em;}
 #navigation li:first-child {margin-left: 0; border: none;}
 
-#navigation li a {color: black; text-decoration: none; font-size: 4em; display: block; font-weight: 400; letter-spacing:0.060em; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;}
+#navigation li a {color: white; text-decoration: none; font-size: 4em; display: block; font-weight: 400; letter-spacing:0.060em; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s;}
 #navigation li a:hover, #navigation li a:active {opacity: 0.35}
 
 /* -------------------------------------------------------------------------
@@ -278,7 +278,7 @@ h1 {font-size: 2.6em;}
 #main-header.fixed nav, #secondary-header nav {margin-top: 2.2em;}
 #main-header.fixed #navigation, #secondary-header #navigation {float: right; margin-right: 20%; line-height: 50px; margin-top: 1.0em;}
 #main-header.fixed #logo, #secondary-header #logo {font-size: 1.5em; line-height: 50px; margin-left:20%; height: 60px; border-width: 5px;}
-#main-header.fixed #navigation li a, #secondary-header #navigation li a {font-size: 1.5em; color: #8CB4E8;}
+#main-header.fixed #navigation li a, #secondary-header #navigation li a {font-size: 1.2em; color: #8CB4E8;}
 
 #logo {font-size: 4em; line-height: 50px; height: 60px; margin-top: 2em; border-width: 5px; margin-left: 22%;}
 #navigation {margin-top: 2em; }
@@ -431,7 +431,7 @@ footer {padding: 1.5em;}
 
 	.big
 	{
-		font-family: Segoe UI Light;
+		font-family: 'Open Sans Light';
 		font-size: 65px;
 		color: black;
 		letter-spacing: 5px;

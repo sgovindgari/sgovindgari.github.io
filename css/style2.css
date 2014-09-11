@@ -292,7 +292,7 @@ footer {padding: 2.4em 0;}
 
 
 @media screen and (max-width: 960px) {
-
+.view-content h2 {font-size: 1.7em;}
 h1 {font-size: 2.6em;}
 #main-header.fixed nav, #secondary-header nav {margin-top: 2.2em;}
 #main-header.fixed #navigation, #secondary-header #navigation {float: right; margin-right: 20%; line-height: 50px; margin-top: 1.0em;}
@@ -358,7 +358,7 @@ p img {margin-bottom: -0.5em;}
 .job-description {width: 308px; height: 308px;}
 .job-description h2 {font-size: 2.4em;}
 input[type="text"], input[type="email"], textarea {width: 100%;}
-
+.view-content h2 {font-size: 1.3em;}
 }
 
 @media screen and (max-width: 480px) {
